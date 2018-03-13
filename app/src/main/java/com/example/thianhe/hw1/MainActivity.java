@@ -25,14 +25,14 @@ public class MainActivity extends AppCompatActivity {
             String strSex = editSex.getText().toString();
             int iAge = Integer.parseInt(editAge.getText().toString());
             String strSug ="Result: ";
-            if(strSex.equals(getString(R.string.sex_male)))
+            if(strSex.equals("male") ||strSex.equals("Male"))
                 if(iAge<30)
                     strSug += getString(R.string.Not_Hurry);
                 else if(iAge<=35)
                     strSug += getString(R.string.Get_Married);
                 else if(iAge>35)
                     strSug += getString(R.string.Find_Couple);
-            if(strSex.equals(getString(R.string.sex_female)))
+            if(strSex.equals("female") ||strSex.equals("Female"))
                 if(iAge<28)
                     strSug += getString(R.string.Not_Hurry);
                 else if(iAge<=32)
