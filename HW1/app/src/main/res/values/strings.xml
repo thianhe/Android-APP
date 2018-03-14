@@ -4,14 +4,8 @@
     <string name="sex_hint">Male/Female</string>
     <string name="age_text_view">年齡(age)</string>
     <string name="button_text_view">Submit</string>
-
-    <string name="result_text_view">Submit</string>
+    <string name="result_text_view">Advice: Look for mate</string>
     <string name="Not_Hurry">Not Hurry</string>
     <string name="Get_Married">Get Married</string>
     <string name="Find_Couple">Find Couple</string>
-
-    <string name="sex_male">Male</string>
-    <string name="sex_female">Female</string>
-
-
 </resources>
