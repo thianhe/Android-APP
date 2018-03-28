@@ -1,4 +1,0 @@
-#Tue Mar 27 18:26:44 SGT 2018
-base.0=C\:\\Users\\Thian He\\Documents\\Android-APP\\HW3\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
-path.0=classes.dex
-renamed.0=classes.dex
