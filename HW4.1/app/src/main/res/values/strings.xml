@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">作業四之一: Lee Thian He</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+
+    <string-array name="spinnerHobbyItems">
+        <string name="music">音樂</string>
+        <string name="sing">唱歌</string>
+        <string name="dance">跳舞</string>
+        <string name="travel">旅行</string>
+        <string name="reading">閱讀</string>
+        <string name="writing">寫作</string>
+        <string name="climbing">爬山</string>
+        <string name="swim">游泳</string>
+        <string name="eating">美食</string>
+        <string name="drawing">繪畫</string>
+    </string-array>
+    <string name="btnOK">確定</string>
+    <string name="selection">Hobby selected:</string>
+    <string name="sug_not_hurry">還不急</string>
+    <string name="sug_find_couple">開始找對象</string>
+    <string name="sug_get_married">趕快結婚</string>
+    <string name="spn_sex_list_promt">請選擇性別</string>
+    <string name="family">家人數量</string>
+    <string name="number">預設為3</string>
+</resources>

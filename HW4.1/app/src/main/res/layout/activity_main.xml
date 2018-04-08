@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="edu.ntut.user.myhw3.MainActivity">
+
+    <RadioGroup
+        android:id="@+id/radGrpSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radBtnSexRange1"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="@string/male" />
+
+        <RadioButton
+            android:id="@+id/radBtnSexRange2"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_weight="1"
+            android:text="@string/female" />
+
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spnHobby"
+        android:layout_width="267dp"
+        android:layout_height="34dp"
+        android:entries="@android:drawable/checkbox_on_background"
+        android:entries="@array/spinnerHobbyItems"
+        android:prompt="@string/spnHobbyPrompt" />
+
+    <Button
+        android:id="@+id/btnOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnOK"
+        android:textSize="18sp" />
+    <TextView
+        android:id="@+id/txtSug"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/selection"
+        android:textSize="18sp" />
+
+
+</LinearLayout>
