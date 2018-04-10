@@ -8,47 +8,180 @@
     android:orientation="vertical"
     tools:context="edu.ntut.user.myhw3.MainActivity">
 
+    <TextView
+        android:id="@+id/txtSex"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20px"
+        android:text="@string/sex"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
     <RadioGroup
         android:id="@+id/radGrpSex"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <RadioButton
-            android:id="@+id/radBtnSexRange1"
+            android:id="@+id/radBtnSexMale"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20px"
+            android:layout_marginTop="10px"
             android:layout_weight="1"
-            android:text="@string/male" />
+            android:buttonTint="@color/colorPrimaryDark"
+            android:checked="true"
+            android:text="@string/male"
+            android:textColorLink="@color/colorPrimaryDark" />
 
         <RadioButton
-            android:id="@+id/radBtnSexRange2"
+            android:id="@+id/radBtnSexFemale"
             android:layout_width="match_parent"
-            android:layout_height="56dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10px"
+            android:layout_marginLeft="20px"
             android:layout_weight="1"
-            android:text="@string/female" />
+            android:buttonTint="@color/colorPrimaryDark"
+            android:text="@string/female"
+            android:textColorLink="@color/colorPrimaryDark" />
 
     </RadioGroup>
 
-    <Spinner
-        android:id="@+id/spnHobby"
-        android:layout_width="267dp"
-        android:layout_height="34dp"
-        android:entries="@android:drawable/checkbox_on_background"
-        android:entries="@array/spinnerHobbyItems"
-        android:prompt="@string/spnHobbyPrompt" />
+    <TextView
+        android:id="@+id/txtAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20px"
+        android:text="@string/age"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
 
+    <Spinner
+        android:id="@+id/spAge"
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:entries="@array/maleAge_list" />
+
+    <TextView
+        android:id="@+id/txtHobby"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20px"
+        android:text="@string/hobby"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="140dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/chkHobbyMusic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:text="@string/music"
+                android:textColorHint="@color/colorPrimaryDark" />
+
+            <CheckBox
+                android:id="@+id/chkHobbySing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:text="@string/sing"/>
+
+            <CheckBox
+                android:id="@+id/chkHobbyClimbling"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:text="@string/climbing" />
+
+            <CheckBox
+                android:id="@+id/chkHobbyEating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:text="@string/eating" />
+
+            <CheckBox
+                android:id="@+id/chkHobbyDance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:text="@string/dance" />
+
+            <CheckBox
+                android:id="@+id/chkHobbyTravel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:text="@string/travel" />
+
+            <CheckBox
+                android:id="@+id/chkHobbyReading"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:text="@string/reading" />
+
+            <CheckBox
+                android:id="@+id/chkHobbyWriting"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:text="@string/writing" />
+
+            <CheckBox
+                android:id="@+id/chkHobbySwim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20px"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:text="@string/swim" />
+
+            <CheckBox
+                android:id="@+id/chkHobbyDrawing"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="20px"
+                android:buttonTint="@color/colorPrimaryDark"
+                android:text="@string/drawing" />
+        </LinearLayout>
+    </ScrollView>
     <Button
         android:id="@+id/btnOK"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_margin="20dp"
         android:text="@string/btnOK"
         android:textSize="18sp" />
+
     <TextView
         android:id="@+id/txtSug"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/selection"
+        android:padding="20px"
+        android:text="@string/suggestion"
         android:textSize="18sp" />
 
+    <TextView
+        android:id="@+id/txtHobby1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20px"
+        android:text="@string/hobby"
+        android:textSize="18sp" />
 
 </LinearLayout>
