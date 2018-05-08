@@ -645,8 +645,7 @@ int string player_win_set 0x7f06001d
 int string prompt_title 0x7f06001e
 int string result 0x7f06001f
 int string status_bar_notification_info_overflow 0x7f060013
-int string title_activity_game_statistics 0x7f060020
-int string total_set 0x7f060021
+int string total_set 0x7f060020
 int style AlertDialog_AppCompat 0x7f090086
 int style AlertDialog_AppCompat_Light 0x7f090087
 int style Animation_AppCompat_Dialog 0x7f090088

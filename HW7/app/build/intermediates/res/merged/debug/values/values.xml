@@ -226,7 +226,6 @@
     <string name="prompt_title">和電腦擲骰</string>
     <string name="result">判定輸贏：</string>
     <string name="status_bar_notification_info_overflow">999+</string>
-    <string name="title_activity_game_statistics">GameStatistics</string>
     <string name="total_set">全部局數：</string>
     <style name="AlertDialog.AppCompat" parent="Base.AlertDialog.AppCompat"/>
     <style name="AlertDialog.AppCompat.Light" parent="Base.AlertDialog.AppCompat.Light"/>
